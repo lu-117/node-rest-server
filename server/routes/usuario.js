@@ -140,7 +140,7 @@ app.delete('/usuario/:id', [verificaToken, verificaAdminRol], (req, res) => {
             ok: true,
             usuario: usuarioBorrado
         });
-    })
+    });
 
 
 });
